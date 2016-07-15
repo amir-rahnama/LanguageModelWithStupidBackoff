@@ -1,5 +1,8 @@
 library(tau)
 
+download.file('https://d396qusza40orc.cloudfront.net/dsscapstone/dataset/Coursera-SwiftKey.zip')
+unzip('Coursera-SwiftKey.zip')
+
 blogs <- createPartition("/Users/ara/dev/personal/r/final/en_US/en_US.blogs.txt")
 news <- createPartition("/Users/ara/dev/personal/r/final/en_US/en_US.news.txt")
 twitter <- createPartition("/Users/ara/dev/personal/r/final/en_US/en_US.twitter.txt")
