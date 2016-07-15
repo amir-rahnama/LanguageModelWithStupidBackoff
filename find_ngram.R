@@ -39,6 +39,3 @@ rm(trigram_tau)
 save(trigram, file="SwiftKeyTrigram.RData")
 rm(trigram)
 gc()
-
-
-load("/Users/ara/swiftkey/SwiftKeyEngram.RData")
