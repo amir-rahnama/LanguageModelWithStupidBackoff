@@ -1,5 +1,9 @@
 ### Language Modelling With Stupid Backoff in R
 In this project, we are building a language model using the [Stupid Backoff Model](http://www.aclweb.org/anthology/D07-1090.pdf)
+
+####Demo
+
+####scripts
 Here are the list of script in this project with their description:
 
 ####find_ngrams.R
@@ -25,3 +29,5 @@ Data frame inlcuding bigrams and their count to be used by backoff.R
 
 ###SwiftKeyTrigram.RData
 Data frame inlcuding trigrams and their count to be used by backoff.R
+
+
